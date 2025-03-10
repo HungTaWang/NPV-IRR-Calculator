@@ -210,6 +210,6 @@ int main(){
     cout << "\nFinancial analysis: " << endl;
     cal.printNPV().calculateIRR().printIRR();
 
-    //cout << "\nPress any button to quit! " << endl;
-    //cin>>a;
+    cout << "\nPress any button to quit! " << endl;
+    cin>>a;
 }
